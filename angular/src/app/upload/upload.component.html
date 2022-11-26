@@ -1,0 +1,21 @@
+<app-navbar></app-navbar>
+
+<section class="upload-block">
+    <div class="container">
+      <div class="text-center mt-5">
+        <h1 style="text-align:center;padding:50px">Upload Your CSV or Excel file</h1>
+        
+        <div class="csv-file-chooser-section">
+        <form>
+            <input type="file" #fileImportInput name="files" id="file" (change)="fileChangeListener($event)"
+                 accept=".csv,.xlsx"/><br>
+            <br>
+            <button type="submit" class="btn btn-sucess" routerLink="/login">Predict</button>
+        </form>
+       </div>
+        <br>
+        <br>
+      </div>
+    </div>
+   </section>
+
