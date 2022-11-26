@@ -1,0 +1,12 @@
+.login-block{
+  float:left;
+  width:100%;
+  padding : 50px 0;
+  color: white;
+}
+
+.container{background:rgb(74, 73, 73); border-radius: 10px; width: 40%; height: 40%;}
+.login-sec{padding: 50px 30px; position:relative;}
+.login-sec h2{margin-bottom:30px; font-weight:800; font-size:30px; color: #0069c0;}
+.login-sec h2:after{content:" "; width:100px; height:5px; background:whitesmoke; display:block; margin-top:20px; border-radius:3px; margin-left:auto;margin-right:auto}
+.btn-login{background: white; color:black; height: 30px;width: 100px;display: inline-block; font-weight: 600;text-align: center;}
